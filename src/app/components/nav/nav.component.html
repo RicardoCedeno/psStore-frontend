@@ -1,0 +1,24 @@
+<div class="first-icon-container">
+  <div class="icons-menu">
+    <button (click)="toggleMenu()"><img width="px" src="./assets/images/icon_menu.svg" alt=""></button>
+    <a href=""><img src="./assets/images/vector6.svg" alt=""></a>
+    <a href=""><img src="./assets/images/vector4.svg" alt=""></a>
+  </div>
+  <ul class="menu-options">
+    <li><a href="">Mas reciente</a></li>
+    <li><a href="">Colecciones</a></li>
+    <li><a href="">Ofertas</a></li>
+  </ul>
+</div>
+
+<div class="sidebar" [class.active]="activeMenu">
+  <ul class="menu-mobile">
+    <button (click)="toggleMenu()"><img width="px" src="./assets/images/icon_menu.svg" alt=""></button>
+    <li><span><img src="./assets/images/games.svg" alt=""></span><a href="">Games</a></li>
+    <li> <span><img src="./assets/images/hardware.svg" alt=""></span><a href="">Hardware</a></li>
+    <li> <span><img src="./assets/images/services.svg" alt=""></span><a href="">Services</a></li>
+    <li> <span><img src="./assets/images/news.svg" alt=""></span><a href="">News</a></li>
+    <li> <span> <img src="./assets/images/store.svg" alt=""></span><a href="">Shop</a></li>
+    <li><span><img src="./assets/images/attendance.svg" alt=""></span><a href="">Attendance</a></li>
+  </ul>
+</div>

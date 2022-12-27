@@ -1,0 +1,29 @@
+
+.more-container{
+  display: flex;
+  width: 600px;
+  height: auto;
+  flex-flow: wrap;
+  margin: auto;
+  justify-content: center;
+  gap: 15px;
+
+
+
+
+}
+.ps4, .ps5, .discount{
+
+  max-width: 250px;
+  box-sizing: border-box;
+ }
+
+img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+img:hover{
+  opacity: 0.85;
+  cursor: pointer;
+}
